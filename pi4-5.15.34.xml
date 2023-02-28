@@ -3,8 +3,10 @@
   <remote name="oe" fetch="https://github.com/openembedded"/>
   <remote name="rpi" fetch="https://github.com/agherzan"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
+  <remote name="rpi4b-dev" fetch="https://github.com/saizen408"/>
   
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone" />
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="rpi" revision="kirkstone" />
+  <project name="meta-rpi4b-dev" path="sources/meta-rpi4b-dev" remote="rpi4b-dev" revision="kirkstone" />
   <project name="poky" path="sources/poky" remote="yocto" revision="kirkstone" />
 </manifest>
