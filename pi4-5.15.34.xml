@@ -4,7 +4,7 @@
   <remote name="rpi" fetch="https://github.com/agherzan"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
   
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkston" />
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone" />
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="rpi" revision="kirkstone" />
   <project name="poky" path="sources/poky" remote="yocto" revision="kirkstone" />
 </manifest>
